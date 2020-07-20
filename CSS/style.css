@@ -1,27 +1,249 @@
+/* Color gris #54595d
+  Color azul: #36c */
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?q6wl1b");
+  src: url("../fonts/icomoon.eot?q6wl1b#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?q6wl1b") format("truetype"),
+    url("../fonts/icomoon.woff?q6wl1b") format("woff"),
+    url("../fonts/icomoon.svg?q6wl1b#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e900";
+}
+.icon-main-hero-share:before {
+  content: "\e901";
+}
+/* ----------------------------------------------------------- */
 body {
   margin: 0;
   padding: 0;
-  font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 header {
   width: 100%;
 }
 header img {
-  padding-top: 45px;
+  padding-top: 35px;
   display: flex;
   margin: 0 auto;
 }
+header p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
 main .lang {
-  width: 50%;
+  width: 375px;
+  margin: 0 auto;
+  margin-top: 10px;
+  position: relative;
+}
+main .lang p {
+  color: #36c;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+main .lang small {
+  color: #54595d;
+  margin-top: 10px;
 }
 main .lang .lang-ball {
-  padding-top: 70px;
+  padding-top: 90px;
   display: flex;
   justify-content: center;
 }
 main .lang .lang-1 {
   position: absolute;
+  top: 10px;
+  left: -25px;
+  text-align: center;
+}
+main .lang .lang-2 {
+  position: absolute;
+  top: 10px;
+  right: -25px;
+  text-align: center;
+}
+main .lang .lang-3 {
+  position: absolute;
+  top: 80px;
+  left: -45px;
+  text-align: center;
+}
+main .lang .lang-4 {
+  position: absolute;
+  top: 80px;
+  right: -55px;
+  text-align: center;
+}
+main .lang .lang-5 {
+  position: absolute;
   top: 150px;
-  left: 250px;
+  left: -75px;
+  text-align: center;
+}
+main .lang .lang-6 {
+  position: absolute;
+  top: 150px;
+  right: -75px;
+  text-align: center;
+}
+main .lang .lang-7 {
+  position: absolute;
+  top: 220px;
+  left: -25px;
+  text-align: center;
+}
+main .lang .lang-8 {
+  position: absolute;
+  top: 220px;
+  right: -25px;
+  text-align: center;
+}
+main .lang .lang-9 {
+  position: absolute;
+  top: 290px;
+  left: 20px;
+  text-align: center;
+}
+main .lang .lang-10 {
+  position: absolute;
+  top: 290px;
+  right: 25px;
+  text-align: center;
+}
+main .search {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+main .search-input {
+  border: 1px solid #54595d;
+  width: 375px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+main .search-input:hover {
+  border-color: #1c1d1faf;
+}
+main .search-input input {
+  border: transparent;
+}
+main .search button {
+  z-index: 4;
+  height: 40px;
+  width: 50px;
+  /* display: flex;
+  justify-content: flex-end; */
+  background-color: #36c;
+  border: 0px;
+}
+main .search button:hover {
+  background-color: #3366cce7;
+}
+.icon-search {
+  font-size: 18px;
+  color: white;
+}
+main .readWiki {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 375px;
+  margin: 0 auto;
+}
+
+main .readWiki button {
+  background-color: transparent;
+  border: transparent;
+  font-size: 14px;
+  color: #36c;
+  font-weight: bold;
+}
+main .readWiki-button {
+  background-color: #f8f9fa;
+  height: 36px;
+  width: 270px;
+  border: 1px solid #a2a9b1;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .readWiki img {
+  padding-top: -5px;
+}
+main .readWiki .lineleft {
+  border-bottom: 1px #a2a9b1;
+  width: 80px;
+  position: absolute;
+  top: 585px;
+  right: 175px;
+}
+main .readWiki .lineright {
+  border-bottom: 1px solid #a2a9b1;
+  width: 80px;
+  position: absolute;
+  top: 585px;
+  left: 175px;
+}
+main .links hr {
+  border-top: 0.5px solid #a2a9b1;
+  margin: 20px;
+  margin-top: 35px;
+}
+main .links .links-grid .col-1 .col-1-text1 {
+  display: flex;
+  padding-right: 10px;
+}
+main .links .links-grid .col-1 .col-1-text1 img {
+  height: 42px;
+  width: 42px;
+  padding: 15px;
+}
+main .links .links-grid .col-1 .col-1-text2 {
+  display: flex;
+}
+main .links .links-grid .col-1 .col-1-text2 .wiki {
+  height: 42px;
+  width: 42px;
+  padding: 10px;
+}
+
+main .links .links-grid .col-1 .col-1-text2 .col-1-text2-box .google {
+  height: 35px;
+  width: 120px;
+  padding: 5px;
+}
+main .links .links-grid .col-1 .col-1-text2 .col-1-text2-box .app {
+  height: 30px;
+  width: 110px;
+  /* padding: 10px; */
 }

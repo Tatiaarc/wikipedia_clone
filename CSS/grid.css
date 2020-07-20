@@ -1,0 +1,24 @@
+.links-grid {
+  display: flex;
+  margin: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  color: #54595d;
+}
+.col-1 {
+  width: 30%;
+  border: 1px solid red;
+}
+.col-2 {
+  width: 23.3333333333%;
+  border: 1px solid red;
+}
+.col-3 {
+  width: 23.3333333333%;
+  border: 1px solid red;
+}
+.col-4 {
+  width: 23.3333333333%;
+  border: 1px solid red;
+}
