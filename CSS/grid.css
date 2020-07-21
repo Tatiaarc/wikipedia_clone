@@ -8,17 +8,16 @@
 }
 .col-1 {
   width: 30%;
-  border: 1px solid red;
 }
 .col-2 {
   width: 23.3333333333%;
-  border: 1px solid red;
+  padding-left: 15px;
 }
 .col-3 {
   width: 23.3333333333%;
-  border: 1px solid red;
+  padding-left: 15px;
 }
 .col-4 {
   width: 23.3333333333%;
-  border: 1px solid red;
+  padding-left: 15px;
 }

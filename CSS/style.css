@@ -201,18 +201,18 @@ main .readWiki img {
   padding-top: -5px;
 }
 main .readWiki .lineleft {
-  border-bottom: 1px #a2a9b1;
-  width: 80px;
+  border-bottom: 1px solid #a2a9b1;
+  width: 90px;
   position: absolute;
   top: 585px;
-  right: 175px;
+  right: 315px;
 }
 main .readWiki .lineright {
   border-bottom: 1px solid #a2a9b1;
-  width: 80px;
+  width: 90px;
   position: absolute;
   top: 585px;
-  left: 175px;
+  left: 315px;
 }
 main .links hr {
   border-top: 0.5px solid #a2a9b1;
@@ -222,28 +222,143 @@ main .links hr {
 main .links .links-grid .col-1 .col-1-text1 {
   display: flex;
   padding-right: 10px;
+  padding-bottom: 10px;
 }
 main .links .links-grid .col-1 .col-1-text1 img {
   height: 42px;
   width: 42px;
-  padding: 15px;
+  padding: 10px;
 }
 main .links .links-grid .col-1 .col-1-text2 {
   display: flex;
+  background-color: #f8f9fa;
+  padding-top: 10px;
+  padding-right: 10px;
 }
 main .links .links-grid .col-1 .col-1-text2 .wiki {
   height: 42px;
   width: 42px;
-  padding: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
-
+main .links .links-grid .col-1 .col-1-text2 .col-1-text2-logos {
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
 main .links .links-grid .col-1 .col-1-text2 .col-1-text2-box .google {
   height: 35px;
   width: 120px;
-  padding: 5px;
+  padding-bottom: 5px;
 }
 main .links .links-grid .col-1 .col-1-text2 .col-1-text2-box .app {
-  height: 30px;
-  width: 110px;
+  height: 35px;
+  width: 115px;
   /* padding: 10px; */
+}
+main .links .links-grid .col-2 p {
+  color: #36c;
+  font-size: 14px;
+  /* padding-bottom: 5px; */
+  margin-bottom: 2px;
+}
+main .links .links-grid .col-2 small {
+  font-size: 13px;
+  padding-top: 5px;
+}
+main .links .links-grid .col-2 .commons1 {
+  display: flex;
+}
+main .links .links-grid .col-2 .commons1 img {
+  height: 47px;
+  width: 47px;
+  padding: 10px;
+}
+main .links .links-grid .col-2 .wikilibros1 {
+  display: flex;
+}
+main .links .links-grid .col-2 .wikilibros1 img {
+  height: 45px;
+  width: 45px;
+  padding: 10px;
+}
+main .links .links-grid .col-2 .wikiuniversidad1 {
+  display: flex;
+}
+main .links .links-grid .col-2 .wikiuniversidad1 img {
+  height: 40px;
+  width: 45px;
+  padding: 10px;
+}
+main .links .links-grid .col-2 .wikisource1 {
+  display: flex;
+}
+main .links .links-grid .col-2 .wikisource1 img {
+  height: 45px;
+  width: 45px;
+  padding: 10px;
+}
+main .links .links-grid .col-3 p {
+  color: #36c;
+  font-size: 14px;
+  /* padding-bottom: 5px; */
+  margin-bottom: 2px;
+}
+main .links .links-grid .col-3 small {
+  font-size: 13px;
+  padding-top: 5px;
+}
+main .links .links-grid .col-3 img {
+  height: 45px;
+  width: 45px;
+  padding: 10px;
+}
+main .links .links-grid .col-3 .news {
+  height: 25px;
+  width: 45px;
+  padding: 10px;
+  padding-top: 15px;
+}
+main .links .links-grid .col-3 .wikibox1 {
+  display: flex;
+}
+main .links .links-grid .col-4 p {
+  color: #36c;
+  font-size: 14px;
+  /* padding-bottom: 5px; */
+  margin-bottom: 2px;
+}
+main .links .links-grid .col-4 small {
+  font-size: 13px;
+  padding-top: 5px;
+}
+main .links .links-grid .col-4 img {
+  height: 45px;
+  width: 45px;
+  padding: 10px;
+}
+
+main .links .links-grid .col-4 .wikibox1 {
+  display: flex;
+}
+footer {
+  color: #36c;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+}
+footer .footer1 {
+  color: #54595d;
+  padding-left: 5px;
+}
+footer .footer2 {
+  padding-left: 5px;
+}
+
+footer .footer3 {
+  padding-left: 5px;
+}
+footer .footer4 {
+  padding-left: 5px;
 }
